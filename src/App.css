@@ -22,6 +22,10 @@
   color: #fff;
   box-shadow: #333 0px 1px 5px;
 }
+button.remove-cart-btn{
+  background: rebeccapurple;
+    margin-top: 5px;
+}
 .img-wrapper img{
   width: 100px;
   margin-top: -20px;
@@ -37,7 +41,7 @@
   float:left;
   display: inline-block;
   width: 120px;
-  padding: 20px;
+  padding: 13px;
   height: 70px;
 }
 
@@ -46,6 +50,18 @@
       position: absolute;
       right: 1%;
       top: 1%;
+    }
+    .cart-count{
+            position: absolute;
+            right: 10px;
+            top: 1px;
+            color: #fff;
+            background-color: red;
+            padding: 4px;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            z-index: 1;
     }
 
 /*  */
