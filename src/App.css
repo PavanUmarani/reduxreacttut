@@ -13,6 +13,42 @@
   }
 }
 
+/*  */
+.btn-wrapper button{
+  background-color: red;
+  border: 0;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+.img-wrapper img{
+  width: 100px;
+  margin-top: -20px;
+}
+.cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.item {
+  float:left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+    .add-to-cart img {
+      width: 50px;
+      position: absolute;
+      right: 1%;
+      top: 1%;
+    }
+
+/*  */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
